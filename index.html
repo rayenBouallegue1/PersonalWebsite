@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <title>Rayen Bouallegue</title>
+</head>
+<body>
+
+ <!-- partie du navbar  -->
+
+ <nav class="navbar navbar-expand-lg navbar-light justify-content-between ">
+     <img src="rayen-high-resolution-logo-black.png" width="100px" height="90px" class="d-inline-block align-top" alt="">
+        <ul class="navbar-nav">
+            <li class="nav-item me-3"><a href="" class="nav-link active" >home </a></li>
+            <li class="nav-item me-3"><a href="" class="nav-link" >contact</a></li>
+            <li class="nav-item me-3"><a href="https://github.com/rayenBouallegue1/Personal-Projects" class="nav-link" >github</a></li>
+        </ul>
+</nav>
+
+
+<!-- partie image perso et texte -->
+
+    <header>    
+        
+        <div>
+            <div id="textContainer">
+               
+                <p><span>Hello !</span>
+                        
+                </p> 
+                <p><b>Warning:</b>  Entering this website may cause sudden urges to create, innovate, and code like nobody's business</p> 
+               <button id="cvbt" > <i class="bi bi-download"></i> Download My CV</button>
+                
+            </div>
+            <div id="photoContainer">
+                <img src="photo mee-removebg-preview.jpg" id="imagepers" alt="Rayen Bouallegue">
+            </div>
+        </div>
+    </header>
+
+
+
+    <!-- Partie introduction personnelle -->
+
+    <section class="sectionIntro">
+        <div class="container d-flex justify-content-center">
+                <div id="">
+                    <img src="photo_mee-removebg-preview.png" id="" alt="Rayen Bouallegue">
+                </div>
+                <div id="IntroText">
+                    <p> <b> Who i Am ?</b> <br> <br>
+                        I'm Bouallegue Rayen, a computer science engineering student at Tek-up University, 
+                        but my passion for technology goes far beyond the classroom. 
+                        I thrive on the challenge of transforming complex algorithms into real-world solutions that make a difference. 
+                        Whether it's designing intuitive websites that guide users seamlessly or tackling intricate data puzzles to uncover 
+                            hidden insights, I'm driven by the power of code to create positive impact.
+                    </p>
+                    
+                </div>
+        
+        </div>
+    </section>
+
+
+
+
+<section class="sectionSkills">
+        <div class="container services-container text-center">
+            <h2>My Services</h2>
+            <div class="row">
+                    <div class="card col card-web" style="width: 18rem;" onclick="AfficherSkillsWeb()">
+                        <div class="card-body">
+                            <h4 class="card-title">Web Development</h4>
+                            <p class="card-text">I build responsive websites and dynamic web applications that are both beautiful and functional.</p>
+                        
+                        </div>
+                    </div>
+                    <div class="card col card-analyse" style="width: 18rem;" onclick="AfficherSkillsAnalysis()" >
+                        <div class="card-body">
+                            <h4 class="card-title">Data analysis</h4>
+                            <p class="card-text"> Numbers whisper secrets, and I'm fluent in their language.I extract hidden patterns and trends from datasets.</p>
+                        
+                        </div>
+                    </div>
+                    <div class="card col card-software" style="width: 18rem;" onclick="AfficherSkillsSoftware()">
+                        <div class="card-body">
+                            <h4 class="card-title">Software Development</h4>
+                            <p class="card-text">I bring ideas to life, building web applications, mobile apps, and desktop programs that solve real-world problems.</p>
+                            
+                        </div>
+                    </div>
+                    
+                    
+            </div>   
+            
+        </div>
+
+
+        <div class="container text-center skills">
+                <h3>Skills</h3>
+                <div class="alert alert-warning" role="alert">
+                    select a service to see related skills ! 
+                  </div>
+                <div class="dataanalysis">
+                    <div class="row">
+                        <div class="card col" style="width: 18rem;">
+                            <div class="card-body">
+                                <h4 class="card-title">python</h4>                
+                            </div>
+                        </div>
+                        <div class="card col" style="width: 18rem;">
+                            <div class="card-body">
+                                <h4 class="card-title">Talend</h4>                
+                            </div>
+                        </div>
+                        <div class="card col" style="width: 18rem;">
+                            <div class="card-body">
+                                <h4 class="card-title">Power Bi </h4>                
+                            </div>
+                        </div>
+                        <div class="card col" style="width: 18rem;">
+                            <div class="card-body">
+                                <h4 class="card-title">SQL</h4>                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="devWeb">
+                    <div class="row">
+                        <div class="card col" style="width: 18rem;">
+                            <div class="card-body">
+                                <h4 class="card-title">HTML5</h4>                
+                            </div>
+                        </div>
+                        <div class="card col" style="width: 18rem;">
+                            <div class="card-body">
+                                <h4 class="card-title">CSS/Bootstrap</h4>                
+                            </div>
+                        </div>
+                        <div class="card col" style="width: 18rem;">
+                            <div class="card-body">
+                                <h4 class="card-title">javascript </h4>                
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="SoftwareDev">
+                    <div class="row">
+                        <div class="card col" style="width: 18rem;">
+                            <div class="card-body">
+                                <h4 class="card-title">C/C++ </h4>                
+                            </div>
+                        </div>
+                        <div class="card col" style="width: 18rem;">
+                            <div class="card-body">
+                                <h4 class="card-title">java</h4>                
+                            </div>
+                        </div>
+                        <div class="card col" style="width: 18rem;">
+                            <div class="card-body">
+                                <h4 class="card-title">Python</h4>                
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                
+        </div>
+
+    </section>
+
+
+
+<!-- Debut partie  Education  -->
+<section class="education-section">
+    <h3 class="text-center">Education</h3>
+    <div class="container">  
+        <div class="card">
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="logo">
+                            <img src="logo-Tekup.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-md-8">
+                        <h5 class="card-title">Computer Science Engineering</h5>
+                        <p class="card-text">TEK-UP University</p>
+                        <address>08 Rue Newton, Ariana 2088</address>
+                        <p>2023-2026</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="card">
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="logo">
+                            <img src="logo-isg.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="col-md-8">
+                        <h5 class="card-title">business Computing bachelor</h5>
+                        <p class="card-text">Higher institute of managment of Tunis</p>
+                        <address>41 Av. de la Liberte, Tunis 2000<</address>
+                        <p>2020-2023</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+       
+    </div>
+</section>
+<!-- Fin partie Education  -->
+
+
+
+
+
+
+    <!-- partie formulaire de contact  -->
+<section class="container-form">
+    <div class="container d-flex justify-content-center align-items-center mt-2 ">
+        
+            <form action="" class="w-50">
+                <p> <span> STAY IN TOUCH ! </span></p>
+                <div class="form-floating mb-3">
+                    <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                    <label for="floatingInput">Email address</label>
+                </div>
+                
+            <div class="form-floating mb-3">
+
+                <input type="text" class="form-control" placeholder="Name" name="" id="floatingInput">
+                <label for="floatingInput">Name</label>
+
+            </div>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Your message here"></textarea>
+                
+                <input type="submit" value="Send" >
+
+            </form>
+    </div>
+</section>
+
+
+
+<footer class="d-block p-3 text-center" >  
+        <p class="m-0 fs-4"> Living , Learning & leveling-up every signle day </p> 
+       
+        <div class="d-flex justify-content-center align-items-center flex-column"> <!-- Center the content -->
+            <p>Let's meet on social Media !</p>
+            <ul class="list-unstyled d-flex">
+                <li class="me-3"><a href="https://twitter.com"> <i class="bi bi-twitter-x fs-3"></i> </a></li>
+                <li class="me-3"><a href="https://Facebook.com"><i class="bi bi-facebook fs-3"></i></a></li>
+                <li class="me-3"><a href="https://Linkedin.com"><i class="bi bi-linkedin fs-3"></i></a></li>
+                <li class="me-3"><a href=""><i class="bi bi-github fs-3"></i></a></li>
+            </ul>
+        </div>
+    <hr>
+    <div class="text-center p-2"> Copyrights 2023 Rayen Bouallegue </div>
+</footer>
+
+</body>
+
+<script>
+    function ToggleWarning()
+    {
+        var warning = document.querySelector('.alert') ;
+        warning.style.display ='none' ;
+    }
+    function AfficherSkillsSoftware() {
+      var softwareDev = document.querySelector('.SoftwareDev');
+      var parentsoftwareDev = document.querySelector('.card-software') ; 
+      ToggleWarning(); 
+      softwareDev.style.display = (softwareDev.style.display === 'none' || softwareDev.style.display === '') ? 'block' : 'none';
+      if (parentsoftwareDev.classList.contains('active-card')) 
+      {
+        parentsoftwareDev.classList.toggle("active-card");
+
+      }   
+      else {
+        parentsoftwareDev.classList.add("active-card") ; 
+
+      }  
+    }
+
+    function AfficherSkillsAnalysis() {
+        var dataanalysis = document.querySelector('.dataanalysis');
+        var parentdataanalysis = document.querySelector('.card-analyse') ; 
+        ToggleWarning() ;
+        dataanalysis.style.display = (dataanalysis.style.display === 'none' || dataanalysis.style.display === '') ? 'block' : 'none';
+        if (parentdataanalysis.classList.contains('active-card')) 
+        {
+            parentdataanalysis.classList.toggle("active-card");
+
+        }   
+        else {
+            parentdataanalysis.classList.add("active-card") ; 
+
+        }  
+    }
+      function AfficherSkillsWeb() {
+        var web = document.querySelector('.devWeb');  
+        var parentWeb = document.querySelector('.card-web') ; 
+        ToggleWarning() ; 
+        web.style.display = (web.style.display === 'none' || web.style.display === '') ? 'block' : 'none';
+        if (parentWeb.classList.contains('active-card')) 
+        {
+            parentWeb.classList.toggle("active-card");
+
+        }   
+        else {
+            parentWeb.classList.add("active-card") ; 
+
+        }
+      }
+  </script>
+</html>
